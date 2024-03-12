@@ -8,7 +8,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-         test 777u7u7
+         test after cache name changes
         </p>
         <a
           className="App-link"
