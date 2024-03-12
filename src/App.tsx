@@ -5,6 +5,7 @@ import './App.css';
 function App() {
   return (
     <div className="App">
+      {navigator.serviceWorker.controller && "new version is availabe"}
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
