@@ -80,7 +80,7 @@ self.addEventListener('message', (event) => {
 // Any other custom service worker logic can go here.
 
 
-const cacheName = 'your-app-cache-version-test-abhi';
+const cacheName = new Date().toString();
 
 self.addEventListener('install', (event) => {
   event.waitUntil(
